@@ -1,0 +1,35 @@
+.header-top nav ul li {
+    width: auto;
+    text-align: center;
+  
+	align-items: center;
+	
+	color: orangered;
+   
+}
+
+
+.header-top img{
+
+    
+}
+
+header{
+
+    max-width: 100%;
+}
+
+.header-top nav{
+
+    flex-direction: column;
+}
+
+footer .Animatedlogo{
+
+    display: none;
+}
+
+h1{
+
+    padding: 0%;
+}

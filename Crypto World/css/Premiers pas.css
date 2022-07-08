@@ -1,0 +1,293 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body
+{
+  
+  font-family: 'Lato', sans-serif;
+  background-color: #141414;
+  padding: 0;
+  margin: 0;
+  color: white;
+
+}
+
+body .page
+{
+margin-left: 80px;
+margin-right: 60px;
+margin-top: 0px !important;
+
+
+
+}
+
+nav
+{
+
+  /* Barre de naviguation */
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+position: sticky;
+top: 0;
+background-color: #141414;
+padding: 10px 0px;
+margin: none;
+
+
+
+  /* Fin Barre de naviguation */
+}
+
+nav .onglets
+{
+
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+
+
+
+}
+nav .onglets a{
+padding-top: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 130%;
+
+}
+
+.boite
+{
+  padding-top: 40px;
+
+}
+
+
+.logo{
+  padding-top: none !important;
+  
+
+ }
+
+
+.connection
+{ 
+
+  padding-top: 0px;
+  padding-left: 70%;
+  }
+
+
+
+aside .buttons button
+{
+  padding: 13px 20px;
+  
+  border: none;
+  
+  font-size: 15px;
+  cursor: pointer;
+  outline: none;
+
+}
+
+aside .buttons .login
+{
+   background-color: inherit;
+   margin-right: 10px;
+   color:  #8f8f8f;
+
+
+}
+
+
+
+nav .buttons .register
+{
+   background-color: #f54266;
+   margin-right: 10px;
+   margin-top: 10px;
+   color:  black;
+
+
+}
+
+nav .logo{
+ left: 0px !important;
+  
+ padding: 0px !important;
+    /* Ordre de priorité de superposition */
+ 
+  
+ }
+
+
+
+.banniereariva
+ {
+
+  position: fixed;
+  bottom: 25px;
+  left: 10px;
+  z-index: 5;    /* Ordre de priorité de superposition */
+  width: 20px;
+  
+ }
+
+.banniereefx
+ {
+
+  position: fixed;
+  bottom: 65px;
+  left: 10px;
+  z-index: 5;    /* Ordre de priorité de superposition */
+  width: 20px;
+  
+ }
+
+ .bannierelogo
+ {
+
+  position: static;
+  bottom: 5px;
+  right: 0px;
+      /* Ordre de priorité de superposition */
+  
+  
+ }
+
+
+.page header
+{
+
+ margin-top: 20px;
+ background: url("backgroundpremierspas.webp");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 1300px 400px;
+ color: orangered;
+
+
+}
+
+header h1
+{
+   
+  text-align: center;
+  font-size: 60px;
+  padding: 140px;
+
+
+}
+
+.flottantariva
+
+{
+  float: left;
+
+}
+
+.flottantarivaevent
+{
+  float: right;
+  margin-top: 100px;
+
+}
+
+.flottantarivawonderland2
+{
+  float: top;
+  
+
+}
+
+section .flottantarivawonderland
+{
+
+  float: right;
+  
+}
+
+/* Pied de page */
+
+.page .colonnes
+{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer
+{
+  background-color: black;
+  padding: 25px 100px;
+  color: #828282;
+  bottom: 0px;
+
+}
+
+footer .colonnes
+{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .colonnes p{
+
+  color: orangered;
+
+}
+
+footer p
+{ text-align: center; 
+
+}
+
+
+
+/* FIN Pied de page */
+
+
+
+/* Adaptation mobile */
+
+@media screen and (max-width: 640px)
+{
+
+  body .page{
+    margin: 10px;
+  }
+  header{
+    margin-top: 20px;
+    background-size: 250px 250px;
+
+  }
+  h1{
+    font-size: 30px;
+    padding: 100px;
+  }
+  nav .onglets{
+    display: none;
+
+  }
+}
+
+/* FIN Adaptation mobile */
+
+
+
+.bitcoin
+
+{
+ 
+  float: right;
+  margin-top: 100px;
+
+}
+
