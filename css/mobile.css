@@ -1,28 +1,29 @@
-.header-top nav ul li {
-    width: auto;
-    text-align: center;
-  
-	align-items: center;
+.header-top nav ul {
+    display: flex;
+	justify-content: space-between;
+    text-align: justify;
+	flex-direction: column;
 	
-	color: orangered;
-   
-}
-
-
-.header-top img{
-
     
+    }
+
+
+    .header-top nav ul li{
+
+        flex-direction: column;
+        padding-left: 0%;
+    padding-right: 0%;
+    }
+
+.header-top{
+  
+    
+    width: max-content;
 }
 
-header{
 
-    max-width: 100%;
-}
 
-.header-top nav{
 
-    flex-direction: column;
-}
 
 footer .Animatedlogo{
 
@@ -32,4 +33,9 @@ footer .Animatedlogo{
 h1{
 
     padding: 0%;
+}
+
+html{
+
+    max-width: 100%;
 }
