@@ -1,2 +1,0 @@
-Mettre à jour les fichier HTML avec ceux = développer présent sur "Site Crypto World"
-Ensuite, rediriger toute les images et fichier CSS pour que ça pioche dans le dossier "images"
