@@ -13,8 +13,14 @@ body
 	
 	font-family: Raleway;
     margin: 0;
+	color: black;
     
 
+}
+
+h1{
+
+	margin: 0px;
 }
 
 .container{
@@ -27,14 +33,35 @@ body
    
 }
 
+header{
+ position: fixed;
+ width: 100%;
+ top: 0;
+ height: 90px;
+	
+}
+
+
 .header-top nav ul li {
+    display: flex;
+	justify-content: space-between;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+	color: #F56200;
+	text-align: center;
+
+    }
+
+/* .header-top nav ul li {
+
+	
     width: 126px;
     text-align: center;
   
 	align-items: center;
 	max-width: 100%;
 	color: orangered;
-}
+} */
 
 .IntroduceCWC{
 
@@ -43,7 +70,14 @@ body
 
 .MoreaboutCWC{
 
-	margin: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.IntroduceCWC{
+
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 footer img{
@@ -77,14 +111,17 @@ footer nav ul li {
 }
 
 
+p{
 
+	margin: 0%;
+}
 
 
 
 nav{
 
 display: flex;
-justify-content: space-between;
+justify-content: center;
 align-items: center; 
 }
 
@@ -92,7 +129,7 @@ align-items: center;
 
 header nav a:hover
 {
-   background-color: #f54266;
+   background-color: #F56200;
    
    color:  black;
 }
@@ -104,20 +141,17 @@ nav a{
 
 
 
-
-
-.page header
-{
-
- margin-top: 20px;
- background: url("backgroundhomepage.webp");
- background-repeat: no-repeat;
- background-position: center;
- background-size: 1300px 400px;
- color: orangered;
-
-
+:root {
+    --white: #fff;
+    --gray-10: #00000010;
+    --black: #000000;
+    --orange: #F56200;
+    --orange-light: #FFF4EC;
+    --orange-dark: #FFE1CD;
+    --brown: #94420C;
 }
+
+
 
 header h1
 {
@@ -128,6 +162,43 @@ header h1
 
 
 }
+
+section h1{
+
+	
+	
+	border-radius: 25px;
+	}
+
+	section h2{
+
+	    
+		/*box-shadow: 0px 0px 10px 0px #000000;  */
+		border-radius: 25px;
+		color: #F56200;
+		}
+
+		section{
+
+			background-color: #00000010;
+		}
+
+
+/* Afficher plus */
+.show-more {
+ 
+    color:black;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-top: 2.5%;
+  
+    }
+
+   .show-more:hover {
+ 
+   text-decoration: underline;
+  
+   }
 
 /* Pied de page */
 
@@ -143,7 +214,7 @@ footer
 {
 	background-color: black;
 	padding: 20px 50px;
-	color: #828282;
+	color: #F56200;
 	bottom: 0px;
 
 }
@@ -167,6 +238,17 @@ footer p
 }
 
 
+.disclaimer{
+
+	color: #828282;
+}
+
+.join-community{
+
+	color: #fff;
+}
+
+
 
 /* FIN Pied de page */
 
@@ -174,25 +256,6 @@ footer p
 
 /* Adaptation mobile */
 
-@media screen and (max-width: 640px)
-{
 
-	body .page{
-		margin: 10px;
-	}
-	header{
-		margin-top: 20px;
-		background-size: 250px 250px;
-
-	}
-	h1{
-		font-size: 30px;
-		padding: 100px;
-	}
-	nav .onglets{
-    display: none;
-
-	}
-}
 
 /* FIN Adaptation mobile */

@@ -1,27 +1,31 @@
 .header-top nav ul {
+
     display: flex;
-	justify-content: space-between;
-    text-align: justify;
-	flex-direction: column;
-	
-    
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
     }
 
+    
 
     .header-top nav ul li{
-
-        flex-direction: column;
-        padding-left: 0%;
-    padding-right: 0%;
-    }
+        height: 100%;
+}
 
 .header-top{
   
     
-    width: max-content;
+    max-width: 59%;
+    background-size: cover;
 }
 
-
+header{
+    position: unset;
+    width: unset;
+    top: 0;
+    height: unset;
+       
+   }
 
 
 
@@ -38,4 +42,14 @@ h1{
 html{
 
     max-width: 100%;
+}
+
+.deletebr{
+
+    display: none;
+}
+
+header img{
+
+    display: none;
 }
